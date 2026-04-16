@@ -16,8 +16,7 @@ float rand2d(vec2 p) {
     return (fract(sin(p.x*1020.+p.y*251.)*562447.));
 }
 
-  //derivitive
- vec4 noised(vec3 x) {
+vec4 noised(vec3 x) {
     vec3 p = floor(x);
     vec3 w = smoothstep(0.0,1.0,fract(x));
 

@@ -1,3 +1,5 @@
+#define STB_IMAGE_IMPLEMENTATION
+#define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "STB/stb.hpp"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
