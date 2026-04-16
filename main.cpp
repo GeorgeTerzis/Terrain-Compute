@@ -71,8 +71,8 @@ struct window {
 
         win->monitor = glfwGetPrimaryMonitor();
         win->window_specs = (GLFWvidmode*)glfwGetVideoMode(win->monitor);
-        win->width = win->window_specs->width;
-        win->height = win->window_specs->height;
+        win->width = 900;
+        win->height = 900;
         win->aspect_ratio = (float)win->width / (float)win->height;
 
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
